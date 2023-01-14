@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  proxy:
+    build: .
+    hostname: proxyInverso
+    container_name: proxyInverso
+    ports:
+      - '80:80'
