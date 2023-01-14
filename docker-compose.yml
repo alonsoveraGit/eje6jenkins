@@ -1,5 +1,5 @@
 web:
-  imagen: alonsovera/nginx:laster
+  image: alonsovera/nginx:laster
   volumes:
    - ./templates:/etc/nginx/templates
   ports:
