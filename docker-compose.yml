@@ -1,9 +1,0 @@
-web:
-  image: alonsovera/nginx:laster
-  volumes:
-   - ./templates:/etc/nginx/templates
-  ports:
-   - "8080:80"
-  environment:
-   - NGINX_HOST=projects2me.es
-   - NGINX_PORT=80
