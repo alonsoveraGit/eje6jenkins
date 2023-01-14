@@ -2,8 +2,8 @@ version: '3'
 
 services:
   proxy:
-    build: .
+    image: alonsovera/nginx:laster
     hostname: proxyInverso
     container_name: proxyInverso
     ports:
-      - '8045:80'
+      - '6654:80'
