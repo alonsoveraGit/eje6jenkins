@@ -6,4 +6,4 @@ services:
     hostname: proxyInverso
     container_name: proxyInverso
     ports:
-      - '6699:80'
+      - '6688:80'
