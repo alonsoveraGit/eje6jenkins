@@ -2,7 +2,7 @@ version: '3'
 
 services:
   proxy:
-    image: alonsovera/nginx:laster
+    image: alonsovera/nginx
     hostname: proxyInverso
     container_name: proxyInverso
     ports:
